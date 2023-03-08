@@ -155,7 +155,7 @@
             <!-- /.card -->
           </div>
   <!-- /.content-wrapper -->
-  @extends('layouts.footer')
+
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -166,4 +166,5 @@
 <!-- ./wrapper -->
 
 </body>
+@extends('layouts.footer')
 </html>

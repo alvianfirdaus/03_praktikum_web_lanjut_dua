@@ -96,7 +96,7 @@
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                      src="../../dist/img/ega.png" width="20"
+                      src="../../dist/img/egaa.png" width="20"
                       alt="User profile picture">
                 </div>
 

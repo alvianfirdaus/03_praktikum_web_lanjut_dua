@@ -71,11 +71,11 @@
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
+        <div class="row mb">
+          <div class="col-sm">
             <h1 class="m-0">Selamat Datang</h1>
           </div><!-- /.col -->
-          <div class="col-sm-6">
+          <div class="col-sm">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
               <li class="breadcrumb-item active">Selamat Datang</li>
@@ -93,47 +93,53 @@
           <div class="col-lg">
             <div class="card">
               <div class="card-header border-0">
-                <div class="d-flex justify-content-between" height=400px>
-                  <h3 class="card-title-90">Alvian Nur Firdaus</h3>
-                  <a href="javascript:void(0);">akan menayangkan konten tentang Alvian Nur Firdaus</a>
+                <div class="d-flex justify-content-between" >
+                <img src="../../dist/img/head.png" style='size:px'><br>
                 </div>
               </div>
-              <div class="card-body">
-                <div class="d-flex">
-                  <p class="d-flex flex-column">
-                    <span class="text-bold text-lg-500">Selamat Datang</span>
-                    <span>akan menayangkan konten tentang Alvian Nur Firdaus</span>
-                  </p>
-                </div>
+            </div>
+          </div>
+          <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg">
+            <div class="card">
+              <div class="card-header border-0">
                 <div class="d-flex justify-content-between" height=400px>
-                  <h3 class="card-title-90">Muhammad Ega Rama Fernanda</h3>
-                  <a href="javascript:void(0);">akan menayangkan konten tentang Muhammad Ega Rama Fernanda</a>
-                </div>
-              </div>
-              <div class="card-body">
-                <div class="d-flex">
-                  <p class="d-flex flex-column">
-                    <span class="text-bold text-lg-500">Selamat Datang</span>
-                    <span>akan menayangkan konten tentang Muhammad Ega Rama Fernanda</span>
-                  </p>
+                  <h3 class="card-title-90">Isi Content Kami</h3>
                 </div>
                 <!-- /.d-flex -->
 
                 <div class="position-relative mb-4">
-                  <canvas id="visitors-chart" height="500px"></canvas>
-                </div>
-
-                <div class="d-flex flex-row justify-content-end">
-                  <span class="mr-2">
-                    <i class="fas fa-square text-primary"></i> This Week
-                  </span>
-
-                  <span>
-                    <i class="fas fa-square text-gray"></i> Last Week
-                  </span>
+                  <canvas id="visitors-chart" height="5px"></canvas>
                 </div>
               </div>
             </div>
+            <div class="content">
+          <!-- content alvian -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg">
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between" >
+                    <img src="../../dist/img/ap.png" style='size:px'><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- content ega -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg">
+                <div class="card">
+                  <div class="card-header border-0">
+                    <div class="d-flex justify-content-between" >
+                    <img src="../../dist/img/ap2.png" style='size:px'><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- /.card -->
 
     
@@ -154,4 +160,5 @@
     }); 
 </script>
 </body>
+
 </html>

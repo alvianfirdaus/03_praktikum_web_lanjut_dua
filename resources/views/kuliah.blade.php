@@ -101,3 +101,6 @@
                 Wassalamualaikum warahmatullahi wabarakatuh<br>
                 dan kami berdua merasa bangga kuliah di Politeknik Negeri Malang<br>
             </div>
+            
+</section>
+@extends('layouts.footer')
