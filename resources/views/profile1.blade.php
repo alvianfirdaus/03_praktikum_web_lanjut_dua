@@ -96,7 +96,7 @@
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                       src="../../dist/img/alvian.jpg" width="20"
+                       src="../../dist/img/alviann.png" width="40"
                        alt="User profile picture">
                 </div>
 

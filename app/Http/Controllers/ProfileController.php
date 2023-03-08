@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ProfileController extends Controller
 {
-    public function index()
+    public function profile1()
     {
         return view('profile1')
             ->with('full_name', 'Alvian Nur Firdaus')

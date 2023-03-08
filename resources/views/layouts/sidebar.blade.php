@@ -10,10 +10,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="/dist/img/alvian.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/dist/img/polinema.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alvian Nur Firdaus</a>
+          <a href="#" class="d-block">Politeknik Negeri Malang</a>
         </div>
       </div>
 
@@ -35,7 +35,7 @@
                 </a>
               </li>
               <li>
-                <a href="/profile/profile2" class="nav-link">
+                <a href="/profile2" class="nav-link">
                   <p>Profile 2</p>
                 </a>
               </li>

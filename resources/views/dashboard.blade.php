@@ -95,20 +95,26 @@
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between" height=400px>
                   <h3 class="card-title-90">Alvian Nur Firdaus</h3>
-                  <a href="javascript:void(0);">View Report</a>
+                  <a href="javascript:void(0);">akan menasyangkan konten tentang Alvian Nur Firdaus</a>
                 </div>
               </div>
               <div class="card-body">
                 <div class="d-flex">
                   <p class="d-flex flex-column">
                     <span class="text-bold text-lg-500">Selamat Datang</span>
-                    <span>pada percobaan kali</span>
+                    <span>akan menasyangkan konten tentang Alvian Nur Firdaus</span>
                   </p>
-                  <p class="ml-auto d-flex flex-column text-right">
-                    <span class="text-success">
-                      <i class="fas fa-arrow-up"></i> 12.5%
-                    </span>
-                    <span class="text-muted">Since last week</span>
+                </div>
+                <div class="d-flex justify-content-between" height=400px>
+                  <h3 class="card-title-90">Muhammad Ega Rama Fernanda</h3>
+                  <a href="javascript:void(0);">akan menasyangkan konten tentang Muhammad Ega Rama Fernanda</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex">
+                  <p class="d-flex flex-column">
+                    <span class="text-bold text-lg-500">Selamat Datang</span>
+                    <span>akan menasyangkan konten tentang Muhammad Ega Rama Fernanda</span>
                   </p>
                 </div>
                 <!-- /.d-flex -->

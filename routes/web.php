@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
-
+use App\Http\Controllers\PengalamanController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,5 +20,7 @@ Route::get('/', function () {
 });
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
-Route::get('/profile1', [ProfileController::class, 'index'])->name('profile1');
+Route::get('/profile1', [ProfileController::class, 'profile1'])->name('profile1');
 Route::get('/profile2', [ProfileController::class, 'profile2'])->name('profile2');
+
+Route::get('/pengalaman', [PengalamanController::class, 'pengalaman'])->name('kuliah');
