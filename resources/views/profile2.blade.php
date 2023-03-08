@@ -66,8 +66,8 @@
   <!-- Main Sidebar Container -->
   @extends('layouts.sidebar')
 
-   <!-- Content Wrapper. Contains page content -->
-   <div class="content-wrapper">
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid">
@@ -96,15 +96,15 @@
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                       src="../../dist/img/alvian.jpg" width="20"
-                       alt="User profile picture">
+                      src="../../dist/img/ega.png" width="20"
+                      alt="User profile picture">
                 </div>
 
-                <h3 class="profile-username text-center">Alvian Nur Firdaus</h3>
+                <h3 class="profile-username text-center">Muhammad Ega Rama Fernanda</h3>
 
-                <p class="text-muted text-center">CEO</p>
+                <p class="text-muted text-center">System Analist</p>
 
-                <a href="https://www.instagram.com/alvian7968/" class="btn btn-primary btn-block"><b>Follow</b></a>
+                <a href="https://www.instagram.com/muhammadegaram/" class="btn btn-primary btn-block"><b>Follow</b></a>
               </div>
               <!-- /.card-body -->
             </div>

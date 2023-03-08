@@ -90,7 +90,7 @@
         <div class="row">
           <div class="col-12">
             <div class="callout callout-info">
-              <h5><i class="fas fa-info"></i> pengalaman kami adalah:</h5>
+              <h5><i class="fas fa-info"></i> Pengalaman kami adalah :</h5>
               Assalamualaikum Wr.Wb.<br>
                 Selamat datang di Politeknik Negeri Malang, kampus yang mencetak calon tenaga kerja yang profesional dan berdaya saing global. Sebagai salah satu perguruan tinggi vokasi terbaik di Indonesia, Politeknik Negeri Malang atau yang dikenal dengan POLINEMA berupaya untuk menghadirkan pendidikan yang berkualitas dan berkontribusi dalam mencerdaskan anak bangsa.
                 Dengan pendidikan hard skill dan soft skill, pendekatan link and match serta sistem pendidikan yang menyajikan project-based learning dan case method, POLINEMA menghasilkan lulusan dengan pengetahuan, keterampilan serta sikap/attitude yang sesuai dengan kebutuhan industri.
