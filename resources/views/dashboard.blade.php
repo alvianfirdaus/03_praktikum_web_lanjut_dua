@@ -29,7 +29,10 @@
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
-
+ <!-- Preloader -->
+ <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="dist/img/polinema.png" alt="AdminLTELogo" height="60" width="60">
+  </div>
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -38,7 +41,7 @@
         <a href="/" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#dashboard" class="nav-link">Dashboard</a>
       </li>
     </ul>
 
@@ -100,6 +103,7 @@
             </div>
           </div>
           <div class="content">
+      <section id="dashboard">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg">
@@ -145,6 +149,15 @@
     
   <!-- /.content-wrapper -->
   @extends('layouts.footer')
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -156,7 +169,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
     $("document").ready( function () {
-        alert("Selamat datang teman teman!");
+        alert("Selamat Datang Anda Akan diarahkan ke Halaman Web Kami !, tekan ok untuk memulai petualangan");
     }); 
 </script>
 </body>

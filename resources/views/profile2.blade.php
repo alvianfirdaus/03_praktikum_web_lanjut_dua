@@ -35,10 +35,10 @@
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/" class="nav-link">Home</a>
+        <a href="/dashboard" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Profil 2</a>
       </li>
     </ul>
 
@@ -109,8 +109,7 @@
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
-
-            <!-- About Me Box -->
+          <!-- About Me Box -->
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">About Me</h3>
@@ -120,41 +119,78 @@
                 <strong><i class="fas fa-book mr-1"></i>Biodata Mahasiswa</strong>
 
                 <p class="text-muted">
-                <b>Nama Lengkap</b> {!! $full_name !!}<br>
-                <b>Nama Panggilan</b> {!! $short_name !!}<br>
-                <b>NIM</b> {!! $nim !!}<br>
-                <b>Absen</b> {!! $absen !!}<br>
-                <b>Kelas</b> {!! $class !!}<br>
-                <b>prodi</b> {!! $prodi !!}<br>
-                <b>Jurusan</b> {!! $jurusan !!}<br>
-                <b>Kelas</b> {!! $class !!}<br>
+                  <table border ="2" width="100%">
+                  @foreach($dataprofil as $pr)
+                  <tr>
+                    <th width="300px">Nama Lengkap</th><th>{{$pr -> nama_lengkap}}</th>
+                  </tr>
+                  <tr>
+                    <th width="300px">Nama Panggilan</th><th>{{$pr -> nama}}</th>
+                  </tr>
+                  <tr>
+                    <th width="300px">NIM</th><th>{{$pr -> nim}}</th>
+                  </tr>
+                  <tr>
+                    <th width="300px">Absen</th><th>{{$pr -> absen}}</th>
+                  </tr>
+                  <tr>
+                    <th width="300px">Kelas</th><th>{{$pr -> kelas}}</th>
+                  </tr>
+                  <tr>
+                    <th width="300px">Prodi</th><th>{{$pr -> prodi}}</th>
+                  </tr>
+                  <tr>
+                    <th width="300px">Jurusan</th><th>{{$pr -> jurusan}}</th>
+                  </tr>
+                    
+                  @endforeach
+              </table>
                 </p>
-
                 <hr>
-
                 <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
-
-                <p class="text-muted">{!! $alamat !!}</p>
-
+                <p class="text-muted"></p>
+                <table border ="2" width="100%">
+                  @foreach($dataprofil as $pr)
+                  <tr>
+                    <th width="300px">Alamat Asal </th><th>{{$pr -> alamat}}</th>
+                  </tr>
+                  <tr>
+                    <th width="300px">Alamat di Malang </th><th>{{$pr -> alamat_mlg}}</th>
+                  </tr>
+                  @endforeach
+              </table>
                 <hr>
-
                 <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
-
                 <p class="text-muted">
-                  <span class="tag tag-danger">{!! $skil !!}</span>
+                <table border ="2" width="100%">
+                  @foreach($dataprofil as $pr)
+                  <tr>
+                    <th width="300px">skil yang dimiliki </th><th>{{$pr -> skil}}</th>
+                  </tr>
+                  @endforeach
+              </table>
+                  <span class="tag tag-danger"></span>
                 </p>
 
                 <hr>
 
                 <strong><i class="far fa-file-alt mr-1"></i> Social media</strong>
+                <table border ="2" width="100%">
+                  @foreach($dataprofil as $pr)
+                  <tr>
+                    <th width="300px">Instagraam </th><th>{{$pr -> sosmed}}</th>
+                  </tr>
+                  @endforeach
+              </table>
 
-                <p class="text-muted">{!! $ig !!}</p>
+                <p class="text-muted"></p>
               </div>
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
           </div>
   <!-- /.content-wrapper -->
+
   @extends('layouts.footer')
 
   <!-- Control Sidebar -->

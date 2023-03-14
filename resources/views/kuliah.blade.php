@@ -29,7 +29,6 @@
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
-
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -84,23 +83,13 @@
         </div>
       </div><!-- /.container-fluid -->
     </section>
+    <!-- Content Wrapper. Contains page content -->
+    <!-- Content Header (Page header) -->
+    @extends('layouts.peng2')
+    @extends('layouts.peng1')
+    
 
-    <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="callout callout-info">
-              <h5><i class="fas fa-info"></i> Pengalaman kami adalah :</h5>
-              Assalamualaikum Wr.Wb.<br>
-                Selamat datang di Politeknik Negeri Malang, kampus yang mencetak calon tenaga kerja yang profesional dan berdaya saing global. Sebagai salah satu perguruan tinggi vokasi terbaik di Indonesia, Politeknik Negeri Malang atau yang dikenal dengan POLINEMA berupaya untuk menghadirkan pendidikan yang berkualitas dan berkontribusi dalam mencerdaskan anak bangsa.
-                Dengan pendidikan hard skill dan soft skill, pendekatan link and match serta sistem pendidikan yang menyajikan project-based learning dan case method, POLINEMA menghasilkan lulusan dengan pengetahuan, keterampilan serta sikap/attitude yang sesuai dengan kebutuhan industri.
-                POLINEMA memiliki 7 Jurusan dengan 46 Program Studi pada jenjang Diploma II, Diploma III, Diploma IV dan Magister Terapan di kampus utama dan tiga kampus PSDKU yang ada di Kota Kediri, Kabupaten Lumajang dan Kabupaten Pamekasan.
-                Dalam rangka mencapai visi nya menjadi lembaga pendidikan tinggi vokasi yang unggul dalam persaingan global, POLINEMA saat ini memiliki 8 Program Studi kelas internasional dan 10 Program Studi Double Degree yang bekerja sama dengan Management and Science University (MSU) Malaysia, Shenyang Jianzu University (SJU) China, Shandong University of Science and Technology (SDUST) China, dan Shenyang Aerospace University (SAU) China.
-                POLINEMA juga memiliki jaringan kerja sama yang luas di dalam dan luar negeri dengan institusi pendidikan, lembaga pemerintah, industri, organisasi non pemerintah dan berbagai pihak lainnya. Bersama mitranya, POLINEMA bersinergi dalam berbagai program, diantaranya pembelajaran, penyusunan kurikulum, magang mahasiswa, dosen industri, penelitian, pengabdian masyarakat, beasiswa dan rekrutmen.
-                POLINEMA mengundang anda untuk merasakan pengalaman akademis di  salah satu kampus hijau versi UI GreenMetric World University Ranking dengan lingkungan yang dinamis dan ramah.
-                Wassalamualaikum warahmatullahi wabarakatuh<br>
-                dan kami berdua merasa bangga kuliah di Politeknik Negeri Malang<br>
-            </div>
-            
-</section>
-@extends('layouts.footer')
+    <!-- /.content -->
+</body>
+
+
